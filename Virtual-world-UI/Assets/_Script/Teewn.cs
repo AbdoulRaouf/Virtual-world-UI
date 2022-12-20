@@ -5,16 +5,19 @@ using UnityEngine;
 
 public class Teewn : MonoBehaviour
 {
+    public Rigidbody rg;
     // Start is called before the first frame update
     void Start()
     {
-        transform.DOScale(7, 5);
+        rg = GetComponent<Rigidbody>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.anyKey)
+        {
+        }
     }
 }
