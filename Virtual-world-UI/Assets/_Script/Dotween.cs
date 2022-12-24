@@ -9,7 +9,7 @@ public class Dotween : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.DOMove(new Vector3(0, 0, 10), 2).SetEase(ease).SetLoops(-1); 
+        transform.DOMove(new Vector3(0, 0, 100),1000 ).SetEase(ease).SetLoops(-1); 
     }
 
     // Update is called once per frame
